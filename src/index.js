@@ -5,18 +5,18 @@
 const languageStrings = {
     'en': {
         'translation': {
-            'WELCOME' : "Welcome to Gloucester Guide!",
+            'WELCOME' : "Welcome to R. D. U. Korean, a guide for the Korean community in North Carolina!",
             'HELP'    : "Say about, to hear more about the city, or say coffee, breakfast, lunch, or dinner, to hear local restaurant suggestions, or say recommend an attraction, or say, go outside. ",
-            'ABOUT'   : "Gloucester Massachusetts is a city on the Atlantic Ocean.  A popular summer beach destination, Gloucester has a rich history of fishing and ship building.",
+            'ABOUT'   : "Raleigh, Durham, and Cary is located centrally in North Carolina.  A popular destination for academics and student due to its proximity to some major universities",
             'STOP'    : "Okay, see you next time!"
         }
     }
     // , 'de-DE': { 'translation' : { 'TITLE'   : "Local Helfer etc." } }
 };
 const data = {
-    "city"        : "Gloucester",
-    "state"       : "MA",
-    "postcode"    : "01930",
+    "city"        : "Raleigh-Durham",
+    "state"       : "NC",
+    "postcode"    : "27709",
     "restaurants" : [
         { "name":"Zeke's Place",
             "address":"66 East Main Street", "phone": "978-283-0474",
@@ -74,7 +74,7 @@ const data = {
     ]
 }
 
-const SKILL_NAME = "Gloucester Guide";
+const SKILL_NAME = "RDU_Korean";
 
 // Weather courtesy of the Yahoo Weather API.
 // This free API recommends no more than 2000 calls per day
